@@ -1,0 +1,23 @@
+<html>
+<title>留下訊息</title>
+<body>
+<font color="red" size="5">
+<b><i>JSP 留言板</i></b></font>　　　
+<a href="main.jsp">回留言看板</a>
+<hr>
+<form action="savenote.jsp" action="get">
+ <table>
+  <tr><td bgcolor="pink">留言人</td>
+      <td><input type="text" size="20" name="name"></td>
+  </tr>
+  <tr><td valign="top" bgcolor="pink">訊息</td>
+      <td><textarea name="note" rows="5" cols="60"></textarea></td>
+  </tr>
+  <tr><td colspan="2">
+      <input type="submit" value="送出留言">
+      <input type="reset" value="取消"></td>
+  </tr>
+ </table>
+</form>
+</body>
+</html>

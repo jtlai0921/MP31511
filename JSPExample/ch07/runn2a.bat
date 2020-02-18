@@ -1,0 +1,2 @@
+native2ascii -encoding Big5 theResource.properties theResource_zh_TW.properties
+pause

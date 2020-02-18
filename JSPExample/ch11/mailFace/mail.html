@@ -1,0 +1,42 @@
+
+<html>
+<head>
+   <title>寄送郵件介面</title>
+</head>
+<body>
+<p align="center"><b><font size="6">線上電子郵件</font></b></p>
+  
+<form method="POST" action="mail.jsp">
+<table  width="100%" height="332">
+  <tr>
+    <td width="14%" align="right" height="25">寄件人</td>
+    <td width="86%" height="25">     
+        <p><input type="text" name="sendname" size="20"></p>     
+    </td>
+  </tr>
+  <tr>
+    <td width="14%" align="right" height="1">收件人</td>
+    <td width="86%" height="1"><input type="text" name="acceptname" size="20"></td>
+  </tr>
+  <tr>
+    <td width="14%" align="right" height="25">附件</td>
+    <td width="86%" height="25"><input type="file" name="attachfile" size="20"></td>
+  </tr>
+  <tr>
+    <td width="14%" align="right" height="25">標題</td>
+    <td width="86%" height="25"><input type="text" name="subject" size="63"></td>
+  </tr> 
+  <tr>
+    <td width="14%" align="right" height="195">　</td>
+    <td width="86%" height="195"><textarea rows="9" name="content" cols="85"></textarea></td>
+  </tr>
+  <tr>
+    <td width="14%" align="right" height="27">　</td>
+    <td width="86%" height="27">
+      <p align="left"><input type="submit" value="寄出" name=sendMail></p>
+    </td>
+  </tr>
+</table>
+ </form>
+</body>
+</html>
